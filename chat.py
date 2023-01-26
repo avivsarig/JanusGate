@@ -1,6 +1,5 @@
 import json
 import openai
-import requests
 
 config = json.load(open("./config.json", "r"))
 
