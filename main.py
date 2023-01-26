@@ -3,7 +3,7 @@ from chat import generate_text
 
 diff: str = diff_to_str()
 prompt: str = (
-    f"Return commit message for this git diff, without any other text:\n\n{diff}"
+    f"Return commit message for this git diff, reason rather than description,without any other text:\n\n{diff}"
 )
 
 commit_messages: list = generate_text(prompt)
