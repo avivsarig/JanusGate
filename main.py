@@ -10,5 +10,6 @@ while len(commit_messages) < 3:
     for message in more_messages:
         commit_messages.add(message)
 
+print('Possible commit messages:')
 for message in commit_messages:
-    print(message)
+    print(f'- {message}')
