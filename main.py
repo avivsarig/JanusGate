@@ -1,4 +1,3 @@
-from list_files import list_added_files, list_modified_files
 from diff_prompt import diff_to_str
 from chat import generate_text
 
